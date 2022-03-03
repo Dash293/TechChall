@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Web Development Tech Challenge</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">Royaume de Colchide</h1>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="famille-royale.html">Famille royale</a></li>
+          <li><a href="événements.html">Événements</a></li>
+          <li><a href="contactez-nous.html">Contactez-nous</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form>
+      <h2>Contactez-nous</h2>
+      <div class="separation"></div>
+      <div class="body-form">
+        <div class="left">
+          <div class="group">
+            <label for="name">Votre Prénom</label>
+            <input id="name" type="text" autocomplete="off" />
+          </div>
+          <div class="group">
+            <label for="email">Votre adresse e-mail</label>
+            <input id="email" type="text" autocomplete="off" />
+          </div>
+          <div class="group">
+            <label for="phoneNumber">Votre téléphone</label>
+            <input id="phoneNumber" type="text" autocomplete="off" />
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Saisissez ici..."></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="bot-form">
+        <button type="submit" class="send">Envoyer le message</button>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
